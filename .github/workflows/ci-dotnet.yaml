@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Configure Datadog Test Visibility
-        uses: nikita-tkachenko-datadog/gha-composite-test@v33
+        uses: nikita-tkachenko-datadog/gha-composite-test@v34
         with:
           languages: dotnet
           service-name: ci-test-project-gha
